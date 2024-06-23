@@ -10,7 +10,20 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 
 > Don't forget to set the `JDBC URL` value as `jdbc:h2:mem:testdb` for H2 UI.
 
+### Changes Made By me
 
+- I have added the security to the end points by using JWT Token authorisation
+- This is role based authentication. So the user having "Admin" role can be able to perform all operations. While the user having "User" role will be only able to retrive employee information.
+- Admin user will be created at the time of application execution.
+- In order to use the APIs first the user should be registered. User Registration can be executed by Admin only.
+- The registered user need to login using login endpoint and retrive JWT token. The JWT token can be used as a authentication token while using the APIs.
+- Also I have implemented Exception handling.
+
+### More Changes I might have made
+
+- More documentation and comments
+- More validation to the API requests.
+- Added test cases for the purpose of unit testing.
 
 ### Instructions
 
