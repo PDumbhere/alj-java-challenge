@@ -19,6 +19,10 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 - The registered user need to login using login endpoint and retrive JWT token. The JWT token can be used as a authentication token while using the APIs.
 - Also I have implemented Exception handling.
 
+- Admin Credentials are as follows:
+    - Username - "admin"
+    - Password - "admin"
+
 ### More Changes I might have made
 
 - More documentation and comments
